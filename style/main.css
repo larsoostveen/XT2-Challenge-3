@@ -1,0 +1,152 @@
+@font-face{
+    font-family: 'D-DINCondensed';
+    src: url(../font/D-DINCondensed.otf);
+}
+html{
+    box-sizing: border-box;
+}
+  
+*, 
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+  
+body{
+    font-family: 'D-DINCondensed';
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map{
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    outline: none;
+}
+
+#locatie-btn{
+    font-family:'D-DINCondensed';
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    z-index: 2;
+    top: 1em;
+    border-radius: 0px 30px 0px 30px;
+    border: none;
+    font-weight: 800;
+    font-size: 18px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 2px black;
+    outline: none;
+}
+
+#locatie-btn:hover{
+    background: rgba(0,0,0,2);
+    transition: background-color 1000ms linear;
+}
+
+#eten-btn{
+    font-family:'D-DINCondensed';
+    display: none;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    z-index: 2;
+    top: 1em;
+    border-radius: 0px 30px 0px 30px;
+    border: none;
+    font-weight: 800;
+    font-size: 18px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 2px black;
+    outline: none;
+}
+
+#eten-btn:hover{
+    background: rgba(0,0,0,2);
+    transition: background-color 1000ms linear;
+}
+.mapboxgl-popup-content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 0px 15px 15px;
+    width: 250px;
+    height: 400px;
+    padding: 20px 20px 15px 20px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+
+.mapboxgl-popup-content img{
+    max-width: 100px;
+}
+
+.mapboxgl-popup-close-button{
+    font-size: 2.5em;
+    color: black;    
+    outline: none;
+}
+
+.mapboxgl-popup-content h1{
+    font-size: 85px;
+    font-weight: 1200;
+    font-family: 'D-DINCondensed';
+}
+
+.mapboxgl-popup-content h3{
+    font-size: 25px;
+    font-family: 'D-DINCondensed';
+    font-weight: 600;
+}
+
+.mapboxgl-popup-content p{
+    font-size: 20px;
+    text-align: center;
+}
+.mapboxgl-popup-content li{
+    font-size: 17px;
+    font-family: 'D-DINCondensed';
+
+}
+
+
+@media only screen and (min-width: 601px){
+    .mapboxgl-popup-content{
+        width: 300px;
+    }
+
+    .mapboxgl-popup-content h3{
+        font-size: 30px;
+    }
+
+    .mapboxgl-popup-content p{
+        font-size: 23px;
+    }
+
+    .mapboxgl-popup-content li{
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .mapboxgl-popup-content h1{
+        font-size: 100px;
+    }
+}
