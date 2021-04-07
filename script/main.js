@@ -91,7 +91,7 @@ var point = {
 
 
 map.on('load', function () {
-    map.loadImage('https://image.pngaaa.com/36/376036-middle.png',
+    map.loadImage('https://img.pngio.com/millennium-falcon-scale-model-png-download-1250750-free-millenium-falcon-png-900_540.jpg',
     function (error, image){
         if (error) throw error;
     map.addImage('starship',  image);
