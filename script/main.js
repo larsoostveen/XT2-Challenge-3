@@ -91,7 +91,7 @@ var point = {
 
 
 map.on('load', function () {
-    map.loadImage('https://toppng.com/uploads/preview/star-wars-millennium-falcon-11562863034ii1e8arwof.png',
+    map.loadImage('https://www.vhv.rs/dpng/d/416-4168817_star-wars-ship-png-star-wars-millennium-falcon.png',
     function (error, image){
         if (error) throw error;
     map.addImage('starship',  image);
