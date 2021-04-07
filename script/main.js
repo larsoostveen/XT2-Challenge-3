@@ -91,7 +91,7 @@ var point = {
 
 
 map.on('load', function () {
-    map.loadImage('https://img.pngio.com/millennium-falcon-shoe-png-download-818486-free-transparent-millenium-falcon-png-900_500.jpg',
+    map.loadImage('https://toppng.com/uploads/preview/star-wars-millennium-falcon-11562863034ii1e8arwof.png',
     function (error, image){
         if (error) throw error;
     map.addImage('starship',  image);
