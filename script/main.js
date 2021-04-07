@@ -91,7 +91,7 @@ var point = {
 
 
 map.on('load', function () {
-    map.loadImage('',
+    map.loadImage('https://static.wikia.nocookie.net/fortnite/images/b/b5/Millennium_Falcon_-_Glider_-_Fortnite.png/revision/latest?cb=20191218182757',
     function (error, image){
         if (error) throw error;
     map.addImage('starship',  image);
