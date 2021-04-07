@@ -91,7 +91,7 @@ var point = {
 
 
 map.on('load', function () {
-    map.loadImage('https://static.wikia.nocookie.net/fortnite/images/b/b5/Millennium_Falcon_-_Glider_-_Fortnite.png/revision/latest?cb=20191218182757',
+    map.loadImage('https://img.pngio.com/millennium-falcon-shoe-png-download-818486-free-transparent-millenium-falcon-png-900_500.jpg',
     function (error, image){
         if (error) throw error;
     map.addImage('starship',  image);
